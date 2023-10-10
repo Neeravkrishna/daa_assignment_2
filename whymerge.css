@@ -1,0 +1,74 @@
+
+body{
+    background-color: black;
+    color:white;
+    padding:100px 70px;
+    background: url('black-abstract-wallpapers-10.jpg') no-repeat;
+}
+li{
+    font-size: x-large;
+}
+.header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 40px;
+    background:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:100;
+    
+}
+.navbar{
+    margin-right: 90px;
+}
+.logo{
+    font-size:40px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position:relative;
+    font-size:25px;
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px;
+}
+.navbar a::before{
+    content:'';
+    position:absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:4px;
+    background:white;
+    transition: 0.5s;
+}
+.navbar a:hover::before{
+    width:100%;
+}
+.button{
+    padding: 0.6%;
+    background-color:white;
+    color:black;
+    border:5px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.button:hover{
+    padding: 0.6%;
+    background-color: black;
+    color:White;
+    border:5px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.big{
+    font-size: x-large;
+    padding-bottom:10%;
+}
